@@ -1,0 +1,84 @@
+h1{
+  padding:0;
+  margin:0;
+}
+.clearfix:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.title{
+  width:100%;
+  text-align:center;
+}
+.title>h1{
+  font-size:40px;
+  color:#87968E;
+  font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+.title .introduce{
+  color:#B7BBB0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style:none;
+}
+.nav ul{
+  width:420px;
+  margin:20px auto;
+}
+.nav ul li{
+  float:left;
+}
+.nav ul li a{
+  padding:7px 15px;
+  margin:0 5px;
+  color:#fff;
+  background:#72B890;
+  border-radius: 3px;
+}
+.nav ul li a:first-of-type{
+  margin-left:0px;
+}
+.nav ul li a:hover{
+  background:#AACFB1;
+}
+.content{
+  width:406px;
+  height:306px;
+  overflow: hidden;
+  margin:25px auto 40px;
+}
+.content a{
+  width:406px;
+  height:306px;
+  float:left;
+}
+.content a img{
+  width:100%;
+  height:100%;
+}
+.consult{
+  width:406px;
+  margin:0 auto;
+  text-align:center;
+}
+.consult a{
+  padding:8px 10px;
+  background:#72B890;
+  color:#fff;
+  border-radius:4px;
+}
+.consult a:hover{
+  background:#AACFB1;
+}
+.consult span{
+  display:block;
+  margin-top:30px;
+  color:#87968E;
+}
+
+
+
