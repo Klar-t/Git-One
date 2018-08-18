@@ -1,0 +1,30 @@
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.navbar{
+	width: 750px;
+	margin: 0 auto;
+	padding: 15px;
+	border: 1px solid red;
+}
+.navbar::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.navbar-header{
+	border: 1px solid red;
+	float: left;
+	margin-left: -15px;
+}
+
+.nav-fotter{
+	float: right;
+	border: 1px solid green;
+}
+.nav-fotter>ul>li{
+	float: left;
+}
