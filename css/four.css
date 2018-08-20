@@ -1,0 +1,447 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 439927 */
+  src: url('//at.alicdn.com/t/font_439927_g40x0z9yrjm7vi.eot');
+  src: url('//at.alicdn.com/t/font_439927_g40x0z9yrjm7vi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_439927_g40x0z9yrjm7vi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_439927_g40x0z9yrjm7vi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_439927_g40x0z9yrjm7vi.svg#iconfont') format('svg');
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+#home {
+  background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+#home > header {
+  padding-top: 40px;
+}
+#home > header > .start {
+  margin-left: 16px;
+  font-size: 2em;
+  color: #fed136;
+  vertical-align: middle;  
+}
+#home > header > .navbar {
+  float: right;
+  display: inline-block;
+  margin-right: 130px;
+  line-height: 42px;
+}
+#home > header > .navbar > li {
+  float: left;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+#home > header > .navbar > li > a:hover {
+  color: #fed136;
+}
+#home > main {
+  padding-top: 160px;
+  padding-bottom: 200px;
+  color: #fff;
+  text-align: center;
+}
+#home > main > p:first-child {
+  font-size: 40px;
+  font-style: italic;
+}
+#home > main > p:nth-child(2) {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  font-size: 64px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#home > main > a {
+  display: inline-block;
+  padding: 25px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fed136;
+  border-radius: 3px;
+}
+#home > main > a:hover {
+  background: #fec503;
+}
+#services {
+  text-align: center;
+}
+#services > header {
+  padding-top: 100px;
+}
+#services > header > h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+#services > header > p {
+  color: #777;
+  font-style: italic;
+}
+#services > main {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+#services > main > ul {
+  display: flex;
+  justify-content: space-between;
+}
+#services > main > ul > li {
+  width: 360px;
+}
+#services > main > ul > li > div {
+    display: inline-block;
+    width: 112px;
+    height: 112px;
+    font-family: iconfont;
+    font-size: 60px;
+    line-height: 120px;
+    color: #fff;
+    background: #fed136;
+    border-radius: 50%;
+}
+#services > main > ul > li > h4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 18px;
+}
+#services > main > ul > li > p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #777;
+}
+#portfolio {
+  text-align: center;
+  background: #F7F7F7;
+}
+#portfolio >.wrap > header {
+  padding-top: 100px;
+}
+#portfolio >.wrap > header > h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+#portfolio >.wrap > header > p {
+  color: #777;
+  font-style: italic;
+}
+#portfolio >.wrap > main {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+#portfolio >.wrap > main > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#portfolio >.wrap > main > ul > li{
+  position: relative;
+  width: 360px;
+  margin-bottom: 30px;
+}
+#portfolio >.wrap > main > ul > li > .img {
+  position: relative;
+  cursor: pointer;
+}
+#portfolio >.wrap > main > ul > li > .img:hover > .hover {
+  display: block;
+}
+
+#portfolio >.wrap > main > ul > li > .img > a > img {
+  display: block;
+  width: 360px;
+}
+#portfolio >.wrap > main > ul > li > .img > .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  font-size: 90px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 250px;
+  background-color: rgba(254, 209, 54, .9);
+  z-index: 2;
+}
+#portfolio >.wrap > main > ul > li > .detail {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+#portfolio >.wrap > main > ul > li > .detail > h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#portfolio >.wrap > main > ul > li > .detail > p {
+  line-height: 1.5;
+  color: #777;
+  font-style: italic;
+}
+#about {
+  text-align: center;
+}
+#about >.wrap > header {
+  padding-top: 100px;
+}
+#about >.wrap > header > h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+#about >.wrap > header > p {
+  color: #777;
+  font-style: italic;
+}
+#about >.wrap > main {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+#about >.wrap > main > ol > li  {
+  position: relative;
+  padding-bottom: 100px;
+}
+#about >.wrap > main > ol > li > img {
+  width: 156px;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+}
+#about >.wrap > main > ol > li:nth-child(odd) > .summary {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  margin-right: 120px;
+  text-align: right;
+}
+#about >.wrap > main > ol > li:nth-child(even) > .summary {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: 120px;
+  text-align: left;
+}
+#about >.wrap > main > ol > li:after  {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  margin-left: -1px;
+  border-left: 2px solid #f1f1f1;
+  z-index: -1;
+}
+#about >.wrap > main > ol > li> .summary > time {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+#about >.wrap > main > ol > li> .summary > h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#about >.wrap > main > ol > li> .summary > p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #777;
+}
+#about >.wrap > main > ol > li:last-child  {
+  display: inline-block;
+  width: 156px;
+  height: 156px;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  border: 7px solid #f1f1f1;
+  border-radius: 50%;
+  background: #fed136;
+}
+#about >.wrap > main > ol > li:last-child > p {
+  padding-top: 40px; 
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+#team {
+  text-align: center;
+  background: #F7F7F7;
+}
+#team >.wrap > header {
+  padding-top: 100px;
+}
+#team >.wrap > header > h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+#team >.wrap > header > p {
+  color: #777;
+  font-style: italic;
+}
+#team >.wrap > main {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+#team >.wrap > main > ul {
+  display: flex;
+  justify-content: space-between;
+}
+#team >.wrap > main > ul > li{
+  width: 360px;
+}
+#team >.wrap > main > ul > li > img {
+  width: 225px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+}
+#team >.wrap > main > ul > li > h4 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+#team >.wrap > main > ul > li > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #777; 
+}
+#team >.wrap > main > ul > li > .btn > a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: iconfont;
+  background: #222;
+  border-radius: 50%;
+}
+#team >.wrap > main > ul > li > .btn > a:hover {
+  background: #fed136;
+}
+#team >.wrap > main > p {
+  width: 813px;
+  margin-top: 40px;
+  margin-left: auto;   
+  margin-right: auto;
+  line-height: 1.75;
+  color: #777;
+}
+#contact {
+  background: #fff;
+}
+#contact > header > ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#contact > main {
+  background-color: #000;
+  background-image: url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/map-image.png);
+}
+#contact > main >.wrap > header {
+  padding-top: 100px;
+  text-align: center;
+}
+#contact > main >.wrap > header > h2 {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 40px;
+}
+#contact > main >.wrap > header > p {
+  color: #777;
+  font-style: italic;
+}
+#contact > main >.wrap > main {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+#contact > main >.wrap > main > form {
+  padding-left: 68px;
+  padding-right: 68px;
+}
+#contact > main >.wrap > main > form >.detail > textarea {
+  float: right;
+  width: 460px;
+  height: 178px;
+  padding: 16px;
+  border-radius: 3px;
+}
+#contact > main >.wrap > main > form >.basic > input {
+  display: block;
+  width: 460px;
+  height: 50px;
+  padding-left: 16px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+}
+#contact > main >.wrap > main > form > .submit {
+  text-align: center;
+}
+#contact > main >.wrap > main > form > .submit > submit {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background: #fed136;
+  border-radius: 3px;
+}
+#contact > main >.wrap > main > form > .submit > submit:hover {
+  background: #fec503;
+} 
+#contact > footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 240px;
+  line-height: 40px;
+  text-align: center;
+}
+#contact > footer > span {
+  font-size: 14px;
+  color: #333;
+}
+#contact > footer >.btn > a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: iconfont;
+  background: #222;
+  border-radius: 50%;
+}
+#contact > footer > .btn > a:hover {
+  background: #fed136;
+}
+#contact > footer >.policy > a {
+  margin-left: 16px;
+  font-size: 14px;
+  color: #fed136;
+}
+#contact > footer >.policy > a:hover {
+  color: #fec503;
+  text-decoration: underline;
+}
