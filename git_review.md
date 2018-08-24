@@ -86,7 +86,7 @@ $ ls // 查看文件(没写git的都是Linux命令，下篇复习一下，用的
 
 删除分支：git branch -d <name>
 ```
-#####git 删除文件
+##### git 删除文件
 ```
 git rm filename //缓存和本地文件一起删除
 
