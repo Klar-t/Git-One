@@ -1,0 +1,159 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li,dl{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-align: -webkit-match-parent;
+}
+nav{
+	margin: 40px 0;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 2px 0 0 0;
+}
+.logo{
+	font-size: 40px;
+	line-height: 40px;
+	color:#fff;
+	cursor: pointer;
+	padding: 5px 10px;
+	display: inline-block;
+}
+nav ul li{
+	display: inline;
+	position: relative;
+}
+nav ul a{
+	padding: 30px 10px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+nav ul li a.active{
+	color:#fff;
+}
+.subnav{
+	display: none;
+}
+nav{
+	margin: 40px 0;
+	padding: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+header{
+	position: relative;
+	width: 100%;
+	color: #fff;
+	background: url(https://raw.githubusercontent.com/Liqiaomiao/task/master/task15/images/img_bg_2.jpg);
+	text-align: center;
+	padding: 7em;
+	display: table;
+}
+header .container{
+	z-index: 1;
+	width: 750px;
+	margin-top: 124px;
+}
+header h1{
+	margin-bottom: 0px;
+	font-size: 70px;
+	line-height: 1.5;
+	color: #fff;
+}
+h1{
+	display: block;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+header h2{
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	font-weight: normal;
+	color: #fff;
+}
+header ul{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+} 
+
+header ul li{
+	width: 100px;
+	height: 100px;
+	background: rgba(241, 78, 149, 0.8);
+	border-radius: 50%;
+	margin: 0 4px;
+	vertical-align: middle;
+	padding-top: 21px;
+	animation: pluse 1s ease infinites;
+}
+header ul li strong{
+	font-size: 30px;
+	font-weight: normal;
+	display: block;
+	width: 100%;
+}
+header ul li span{
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.7);
+	display: block;
+	width: 100%;
+}
+header p{
+	margin-bottom: 20px;
+}
+header .btn{
+	padding: 15px 20px;
+	background: #fff;
+	color: #F14E95;
+	font-size: 14px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-weight: 400;
+	border-radius: 30px;
+	display: inline-block;
+}
+.overlay{
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+
+
