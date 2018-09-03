@@ -18,6 +18,9 @@ a{
 li{
 	text-align: -webkit-match-parent;
 }
+div{
+	display: block;
+}
 nav{
 	margin: 40px 0;
 	position: absolute;
@@ -197,7 +200,29 @@ section p{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
+	float: left;
 }
-
-
-
+.cards dl{
+	margin-left: 180px;
+}
+.cards>div:first-of-type dl{
+	margin-left: 0;
+	margin-right: 180px;
+}
+.cards dt{
+	color: #F14E95;
+	font-size: 30px;
+}
+.cards>div:first-of-type dd{
+	text-align: right;
+}
+.cards dd{
+	text-align: left;
+}
+dd{
+	display: block;
+	-webkit-margin-start: 40px;
+}
+.cards>div{
+	border: 1px solid red;
+}
