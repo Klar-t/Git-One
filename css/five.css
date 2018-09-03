@@ -159,7 +159,9 @@ section{
 	padding: 7em 0;
 	width: 100%;
 }
-
+.pb-80{
+	padding-bottom: 80px;
+}
 section h2{
 	font-size: 60px;
 	margin-bottom: 10px;
@@ -177,6 +179,15 @@ section p{
 	font-size: 18px;
 	line-height: 1.5;
 	color:#828282;
+	width: 66.67%;
+	margin: 0 auto;
+}
+
+.story .cards{
+	display: flex;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
 }
 
 
