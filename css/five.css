@@ -190,7 +190,14 @@ section p{
 	margin: 0 auto;
 }
 
-
+.cards>div:first-of-type img{
+	float: right;
+}
+.cards img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
 
 
 
