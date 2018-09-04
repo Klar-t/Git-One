@@ -167,7 +167,6 @@ header .btn{
 	bottom: 0;
 	background: rgba(0,0,0,.5);
 }
-
 section{
 	position: relative;
 	text-align: center;
@@ -409,6 +408,38 @@ section .storys-card p{
 	font-weight: normal;
 	text-align: left;
 }
+.regist{
+	background: url(https://raw.githubusercontent.com/Liqiaomiao/task/master/task15/images/img_bg_4.jpg) no-repeat center/cover;
+}
 
+.regist h2{
+	color: #fff;
+}
+.regist .section-tit p{
+	color: rgba(255,255,255,.5);
+}
+.registing{
+	width: 83.333%;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.registing input{
+	width: 29.33%;
+	background: rgba(255,255,255,0.2);
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	height: 54px;
+	margin: 2%;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+.registing input[type="button"]{
+	background: #F14E95;
+	border-radius: 30px;
+	cursor: pointer;
+}
 
 
