@@ -299,6 +299,14 @@ section .cards-box .cards p{
 	position: relative;
 	padding: 1px;
 }
+.storys-container::before{
+	content: "";
+	position: absolute;
+	display: block;
+	height: 100%;
+	left: 50%;
+	border-left: 1px solid #d4d4d4;
+}
 .storys-card{
 	position: relative;
 	margin: 20px;
@@ -351,9 +359,22 @@ section .storys-card p{
 	width: 0;
 	height: 0;
 	border: 14px solid transparent;
-	border-left: 14px solid #d4d4d4;
+    border-left: 14px solid #d4d4d4;
 	position: absolute;
 	top: 80px;
+}
+.storys-card>div::after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-left: 14px solid #fff;
+	position: absolute;
+	top: 80px;
+}
+.storys-card:nth-of-type(odd)>div::after{
+	left: 99.5%;
 }
 .storys-card:nth-of-type(odd)>div::before{
 	left: 100%;
@@ -365,9 +386,13 @@ section .storys-card p{
 .storys-card:nth-of-type(even)>div::before{
 	right: 100%;
 	border-left: 14px solid transparent;
-	border-right: 14px solid #d4d4d4;
+	border-right: 14px solid #d3d4d4;
 }
-
+.storys-card:nth-of-type(even)>div::after{
+	right: 99.5%;
+	border-left: 14px solid transparent;
+	border-right: 14px solid #fff;
+}
 .wedding-Gallery{
 	background: rgba(0, 0, 0, 0.04);
 }
@@ -441,5 +466,17 @@ section .storys-card p{
 	border-radius: 30px;
 	cursor: pointer;
 }
-
-
+footer{
+	padding: 7em 0;
+	text-align: center;
+}
+footer p{
+	margin-bottom: 20px;
+}
+footer small{
+	display: block;
+	font-size: smaller;
+}
+footer a{
+	color: #F14E95;
+}
