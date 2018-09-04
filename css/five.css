@@ -269,7 +269,7 @@ section p{
 }
 .cards-box .cards{
 	border: 2px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
     padding: 30px;
 	width: 45%;
 	border-radius: 4px;
@@ -296,12 +296,119 @@ section .cards-box .cards p{
 	width: 100%;
 	font-size: 16px;
 }
+.storys-container{
+	position: relative;
+	padding: 1px;
+}
+.storys-card{
+	position: relative;
+	margin: 20px;
+	display: table;
+	width: 100%;
+}
+.storys-card img{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	margin-left: -90px;
+}
+.storys-card>div{
+	width: 376px;
+	padding: 30px;
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	position: relative;
+}
+.storys-card>div{
+	text-align: left;
+}
+.storys-card:nth-of-type(odd)>div{
+	float: left;
+	margin-left: 80px;
+}
+.storys-card dt{
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #000;
+}
+.storys-card time{
+	display: block;
+	margin-bottom: 20px;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+section .storys-card p{
+	padding: 0;
+	width: 100%;
+	line-height: 1.7;
+	font-size: 16px;
+}
+.storys-card>div::before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-left: 14px solid #d4d4d4;
+	position: absolute;
+	top: 80px;
+}
+.storys-card:nth-of-type(odd)>div::before{
+	left: 100%;
+}
+.storys-card:nth-of-type(even)>div{
+	float: right;
+	margin-right: 100px;
+}
+.storys-card:nth-of-type(even)>div::before{
+	right: 100%;
+	border-left: 14px solid transparent;
+	border-right: 14px solid #d4d4d4;
+}
 
+.wedding-Gallery{
+	background: rgba(0, 0, 0, 0.04);
+}
+.wedding-Gallery ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
 
-
-
-
-
+.wedding-Gallery li{
+	width: 32.3%;
+	height: 400px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	position: relative;
+	cursor: pointer;
+}
+.wedding-Gallery .cards li{
+	background: url(https://raw.githubusercontent.com/Liqiaomiao/task/master/task15/images/gallery-1.jpg) no-repeat center/cover;
+}
+.case-studies-sumary{
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+	right: 2em;
+}
+.case-studies-sumary span{
+	letter-spacing: 2px;
+	font-size: 13px;
+	color: rgba(255,255,255,0.7);
+	display: block;
+	text-align: left;
+}
+.case-studies-sumary h2{
+	font-size: 30px;
+	color: #fff;
+	font-weight: normal;
+	text-align: left;
+}
 
 
 
