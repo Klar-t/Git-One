@@ -131,8 +131,20 @@ header ul li{
 	margin: 0 4px;
 	vertical-align: middle;
 	padding-top: 21px;
-	animation: pluse 1s ease infinites;
+	animation: pluse 1s ease infinite;
 }
+@keyframes pluse{
+	0%{
+		transform: scale(1,1);
+	}
+	50%{
+		transform: scale(1.05,1.05);
+	}
+	100%{
+		transform: scale(1,1);
+	}	
+}
+
 header ul li strong{
 	font-size: 30px;
 	font-weight: normal;
