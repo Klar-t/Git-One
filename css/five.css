@@ -21,6 +21,18 @@ li{
 div{
 	display: block;
 }
+body,html{
+	font-size: 16px;
+	line-height: 1.7;
+	height: 100%;
+	color: #828282;
+	min-width: 1330px;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
 nav{
 	margin: 40px 0;
 	position: absolute;
@@ -162,6 +174,7 @@ section{
 	padding: 7em 0;
 	width: 100%;
 }
+
 .pb-80{
 	padding-bottom: 80px;
 }
@@ -192,37 +205,42 @@ section p{
 	position: relative;
 	margin: 0 auto;
 }
+.cards>div{
+	width: 50%;
+	float: left;
+}
 
 .cards>div:first-of-type img{
 	float: right;
 }
-.cards img{
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	float: left;
+.cards dt {
+    font-family: "Sacramento", Arial, serif;
+    color: #F14E95;
+    font-size: 30px;
 }
-.cards dl{
-	margin-left: 180px;
+
+.cards img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+}
+.cards dd {
+    text-align: left;
+}
+.cards dl {
+    margin-left: 180px;
+}
+.cards>div:first-of-type  dd {
+    text-align: right;
 }
 .cards>div:first-of-type dl{
-	margin-left: 0;
-	margin-right: 180px;
+    margin-left: 0;
+    margin-right: 180px;
 }
-.cards dt{
-	color: #F14E95;
-	font-size: 30px;
+.cards>div:first-of-type img{
+    float: right;
 }
-.cards>div:first-of-type dd{
-	text-align: right;
-}
-.cards dd{
-	text-align: left;
-}
-dd{
-	display: block;
-	-webkit-margin-start: 40px;
-}
-.cards>div{
+.wedding-events{
 	border: 1px solid red;
 }
