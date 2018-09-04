@@ -241,6 +241,67 @@ section p{
 .cards>div:first-of-type img{
     float: right;
 }
-.wedding-events{
-	border: 1px solid red;
+
+ .wedding-events{
+	background: url(https://raw.githubusercontent.com/Liqiaomiao/task/master/task15/images/img_bg_3.jpg) no-repeat left top/cover;
+} 
+.section-tit{
+	padding-bottom: 80px;
 }
+.section-tit span{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 13px;
+	letter-spacing: 2px;
+	font-family: 600;
+}
+.wedding-events h2{
+	color:#fff;
+}
+.overlay{
+	    background: rgba(0,0,0,.4);
+}
+.cards-box{
+	display: flex;
+	justify-content: space-around;
+	width: 83.333%;
+	margin: 0 auto;
+	color:#fff;
+}
+.cards-box .cards{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+	width: 45%;
+	border-radius: 4px;
+} 
+.cards-box .cards h3{
+	font-size: 20px;
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.cards-box .cards ul{
+	float: left;
+	width: 50%;
+	margin-bottom: 30px;
+	display: table;
+	color: rgba(255,255,255,.8);
+}
+section .cards-box .cards p{
+	color: rgba(255,255,255,.8);
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
