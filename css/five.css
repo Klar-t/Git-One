@@ -171,13 +171,14 @@ header .btn{
 	border-radius: 30px;
 	display: inline-block;
 }
-.overlay{
+.overlay,.overlay2{
 	position: absolute;
 	left: 0;
 	top:0;
 	right: 0;
 	bottom: 0;
 	background: rgba(0,0,0,.5);
+	transition: all 1s ease;
 }
 section{
 	position: relative;
@@ -425,6 +426,27 @@ section .storys-card p{
 }
 .wedding-Gallery .cards li{
 	background: url(https://raw.githubusercontent.com/Liqiaomiao/task/master/task15/images/gallery-1.jpg) no-repeat center/cover;
+}
+.overlay2{
+	opacity: 0;
+}
+.overlay2:hover{
+	opacity: 1;
+}
+.icon-jiahao{
+	width: 60px;
+	height: 60px;
+	display: block;
+	z-index: 200;
+	fill: rgba(255,255,255,.6);
+	background: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	padding: 2px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -30px;
+
 }
 .case-studies-sumary{
 	position: absolute;
