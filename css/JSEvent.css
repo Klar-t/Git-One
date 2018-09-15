@@ -1,4 +1,4 @@
-/* *{
+*{
   box-sizing:border-box;
 }
 ul,li{
@@ -37,11 +37,11 @@ ul,li{
 }
 .tab-ct .content>li.active{
   display:block;
-} */
+}
 
 
 /* 模态框 */
- .modal-dialog{
+ /* .modal-dialog{
 	display: none;
 	position: fixed;
 	top:0;
@@ -91,4 +91,4 @@ ul,li{
 }
 .open{
 	display: block;
-}
+} */
