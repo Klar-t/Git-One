@@ -64,6 +64,7 @@ li{
   width:406px;
   margin:0 auto;
   text-align:center;
+  padding-top:15px;
 }
 .consult a{
   padding:8px 10px;
@@ -80,11 +81,10 @@ li{
   color:#87968E;
 }
 .QD{
-  margin:0 auto;
   padding:5px;
-  border-radius:2px;
-  width:50px;
-  align:center;
+  border:1px solid #72b890;
+  border-radius:10px;
+  text-align:center;
 }
 
 
